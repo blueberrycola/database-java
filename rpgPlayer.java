@@ -6,7 +6,6 @@ public class rpgPlayer {
     String[] armor = new String[4]; // PLAYER HAS ARMOR_INVENTORY
     int hp;
     int level;
-    int dmg;
     public rpgPlayer(String user, String pass, String[] inv, String[] armor_inv, int health_state, int level) {
         this.username = user;
         this.password = pass;
